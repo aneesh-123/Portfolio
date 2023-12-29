@@ -1,0 +1,35 @@
+/* Contact.module.css */
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around; /* Dynamically adjust space */
+    align-items: center;
+    min-height: 100vh; /* Full height of the viewport */
+    padding: 0 22%; /* Add some padding on the sides */
+    background-color: #000; /* Assuming a dark theme; change as needed */
+  }
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    margin: 0 18%; /* Add margins to increase spacing */
+    color: #fff; /* White color for the text */
+    text-shadow:
+      0 0 5px #fff, /* White glow */
+      0 0 10px #fff, /* Larger white glow */
+      0 0 20px #ff00ff, /* Outer pink glow */
+      0 0 30px #ff00ff, /* Larger pink glow */
+      0 0 40px #ff00ff, /* Even larger pink glow */
+      0 0 70px #ff00ff, /* Maximum pink glow */
+      0 0 80px #ff00ff, /* Beyond maximum pink glow */
+      0 0 100px #ff00ff, /* Extreme pink glow */
+      0 0 150px #ff00ff; /* Ultra extreme pink glow */
+  }
+  
+  .contactIcon {
+    margin-left: 20px;
+    height: 40px; /* Adjust as needed */
+    width: 40px; /* Adjust as needed */
+  }
+  

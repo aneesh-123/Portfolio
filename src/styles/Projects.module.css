@@ -1,0 +1,127 @@
+.projectTitle {
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #ff00ff,
+      0 0 30px #ff00ff,
+      0 0 40px #ff00ff;
+    color: #fff;
+    font-size: 3rem; /* Larger font size for the project title */
+  }
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.projectItem {
+    width: 300%; /* Adjusted width */
+    margin: 20px 53px 10px auto;
+    padding: 30px;
+    border: 2px solid #ff00ff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #ff00ff,
+      0 0 30px #ff00ff,
+      0 0 40px #ff00ff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.projectDisplay {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+    overflow-y: auto;
+    border: 3px solid #ff00ff;
+    box-shadow:
+      0 0 10px #ff00ff,
+      0 0 20px #ff00ff,
+      0 0 30px #ff00ff,
+      0 0 40px #ff00ff;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    display: none;
+}
+
+.projectDisplay.show {
+    display: block;
+    opacity: 1;
+}
+
+.projectDescription {
+    margin-bottom: 10px;
+    text-shadow:
+      0 0 2px #fff,
+      0 0 4px #ff00ff;
+}
+
+.projectLink {
+    color: #4fa9f6;
+    text-decoration: none;
+    margin-right: 10px;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #ff00ff,
+      0 0 30px #ff00ff,
+      0 0 40px #ff00ff;
+}
+
+.neonText {
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #ff00ff,
+      0 0 30px #ff00ff,
+      0 0 40px #ff00ff;
+    color: #fff;
+    font-size: 1.5rem; /* Increased font size for project title */
+  }
+  
+  .italicText {
+    font-style: italic;
+    color: #aaa;
+    font-size: 1.5rem; /* Increased font size for italics text */
+  }
+  
+  .dateAndDependencies {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4fa9f6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #ff00ff,
+      0 0 30px #ff00ff,
+      0 0 40px #ff00ff;
+  }

@@ -1,0 +1,66 @@
+.experienceContainer {
+    display: flex;
+    min-height: 100vh;
+    background-color: #000;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+}
+
+.titlesBox, .neonBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow:
+      0 0 5px #ff00ff, /* Outer pink glow */
+      0 0 10px #ff00ff, /* Larger pink glow */
+      0 0 15px #ff00ff; /* Even larger pink glow */
+}
+
+.experienceTitle {
+    font-size: 2rem; /* Increased font size */
+    cursor: pointer;
+    color: #fff; /* White color for consistency */
+    margin: 20px 0; /* Increased vertical spacing */
+    text-shadow:
+      0 0 5px #fff, /* White glow */
+      0 0 10px #fff, /* Larger white glow */
+      0 0 15px #ff00ff; /* Pink glow */
+}
+
+.neonText {
+    font-size: 2.5rem;
+    color: #fff; /* White color for neon sign text */
+    text-shadow:
+      0 0 5px #fff, /* White glow */
+      0 0 10px #fff,
+      0 0 15px #ff00ff; /* Pink glow */
+}
+
+.experienceDate {
+    color: #fff; /* White color for date */
+    font-size: 1.5rem; /* Slightly smaller than the title */
+    margin: 10px 0; /* Spacing around the date */
+    text-align: center; /* Center align the date */
+}
+
+.experienceDescription {
+    color: #fff; /* White color for description */
+    font-size: 1rem;
+    padding: 0 20px;
+    list-style: none;
+    text-align: left;
+    text-shadow:
+      0 0 2px #fff, /* Very small white glow */
+      0 0 4px #ff00ff; /* Subtle pink glow */
+}
+
+.experienceDescription li {
+    margin-bottom: 10px;
+}

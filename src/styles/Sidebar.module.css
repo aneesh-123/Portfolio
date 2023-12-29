@@ -1,0 +1,37 @@
+/* Neon text style for Sidebar */
+.neon-text {
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff; /* White color for the text */
+  padding: 4rem 6rem 5.5rem;
+  text-transform: uppercase;
+  text-shadow:
+    0 0 5px #fff, /* White glow */
+    0 0 10px #fff, /* Larger white glow */
+    0 0 20px #ff00ff, /* Outer pink glow */
+    0 0 30px #ff00ff, /* Larger pink glow */
+    0 0 40px #ff00ff, /* Even larger pink glow */
+    0 0 70px #ff00ff, /* Maximum pink glow */
+    0 0 80px #ff00ff, /* Beyond maximum pink glow */
+    0 0 100px #ff00ff, /* Extreme pink glow */
+    0 0 150px #ff00ff; /* Ultra extreme pink glow */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  flex: 1;
+}
+
+.neon-text a {
+  text-decoration: none;
+  color: #fff; /* Maintain the white text color for links */
+  padding: 1rem;
+}
+
+.neon-text a:hover {
+  /* Add hover styles if needed, can adjust the text-shadow or color for hover effect */
+  text-shadow: 0 0 20px #ffffff, 0 0 30px #ff00ff;
+}

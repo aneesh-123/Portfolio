@@ -1,0 +1,48 @@
+/* Home.module.css */
+
+/* Neon text style */
+:root {
+    /* Set neon color */
+    --neon-text-color: #7fe9f6;
+    --neon-text-shadow-color: #b915cc; /* Same color as neon-text-color but with opacity */
+}
+
+.neon-text-main {
+    color: #fff; /* Choose a neon color */
+    text-shadow:
+      0 0 5px #fff, /* White glow */
+      0 0 10px #fff, /* Larger white glow */
+      0 0 20px #ff00ff, /* Outer pink glow */
+      0 0 30px #ff00ff, /* Larger pink glow */
+      0 0 40px #ff00ff, /* Even larger pink glow */
+      0 0 70px #ff00ff, /* Maximum pink glow */
+      0 0 80px #ff00ff, /* Beyond maximum pink glow */
+      0 0 100px #ff00ff, /* Extreme pink glow */
+      0 0 150px #ff00ff; /* Ultra extreme pink glow */
+      
+    animation: neon-flicker 1.5s infinite alternate; /* Adjust duration as needed */
+
+  }
+  
+  @keyframes neon-flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #ff00ff,
+        0 0 30px #ff00ff,
+        0 0 40px #ff00ff,
+        0 0 70px #ff00ff,
+        0 0 80px #ff00ff,
+        0 0 100px #ff00ff,
+        0 0 150px #ff00ff;
+      opacity: 1;
+    }
+    20%, 24%, 55% {
+      opacity: 0.6;
+      text-shadow: none;
+    }
+  }
+  
+/* Other common styles for different sizes if needed */
+/* ... */
