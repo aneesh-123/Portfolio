@@ -39,10 +39,10 @@ const projectsData = [
         title: "Exerhelp",
         description: "Exercise Form Tracker",
         date: "2021-03-14",
-        dependencies: "OpenCV, Python, Tensorflow",
+        dependencies: "OpenCV, Python, Tensorflow THIS IS A TEST",
         projectOverview: "Exerhelp won first place at MenloHacks. It is created to track the form of a user's completion of a bicep curl " + 
                         "and assign an accuracy score to it. Based on ",
-        whatILearned: "Developed skills in game logic...",
+        whatILearned: ["Developed skills in game logic..."],
         projectLink: "https://galaga.example.com",
         githubLink: "https://github.com/galaga",
         visualLink: "https://visuals-galaga.example.com"
