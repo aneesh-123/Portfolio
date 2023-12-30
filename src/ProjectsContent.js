@@ -36,11 +36,12 @@ const projectsData = [
         visualLink: "https://aneesh-123.github.io/"
     },
     {
-        title: "Galaga",
-        description: "Arcade style space shooter game.",
-        date: "2022-07-15",
-        dependencies: "React, JavaScript",
-        projectOverview: "Galaga is a fast-paced arcade game...",
+        title: "Exerhelp",
+        description: "Exercise Form Tracker",
+        date: "2021-03-14",
+        dependencies: "OpenCV, Python, Tensorflow",
+        projectOverview: "Exerhelp won first place at MenloHacks. It is created to track the form of a user's completion of a bicep curl " + 
+                        "and assign an accuracy score to it. Based on ",
         whatILearned: "Developed skills in game logic...",
         projectLink: "https://galaga.example.com",
         githubLink: "https://github.com/galaga",
