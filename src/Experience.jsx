@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './styles/Experience.module.css'; // Import the CSS module
+import styles from './styles/Experience.module.css';
 import experienceData from './ExperienceContent';
 
 function Experience() {
@@ -8,6 +8,14 @@ function Experience() {
   const handleExperienceClick = (index) => {
     setSelectedExperience(index);
   };
+
+  // Placeholder content for initial display
+  const initialContent = (
+    <>
+      <h1 className={styles.neonText}>Welcome!</h1>
+      <p className={styles.experienceDate}>Click any of the Experiences to Learn More!</p>
+    </>
+  );
 
   return (
     <div className={styles.experienceContainer}>
@@ -19,7 +27,7 @@ function Experience() {
         ))}
       </div>
       <div className={styles.neonBox}>
-        {selectedExperience !== null && (
+        {selectedExperience !== null ? (
           <>
             <h1 className={styles.neonText}>{experienceData[selectedExperience].title}</h1>
             <p className={styles.experienceDate}>
@@ -32,6 +40,8 @@ function Experience() {
               ))}
             </ul>
           </>
+        ) : (
+          initialContent // Display initial content if no experience is selected
         )}
       </div>
     </div>
