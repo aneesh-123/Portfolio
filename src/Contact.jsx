@@ -1,22 +1,26 @@
 import React from 'react';
 import styles from './styles/Contact.module.css'; // Import the CSS module
+import githubIcon from './assets/github2.png'
+import LinkedInIcon from './assets/LinkedIn.png'
+import EmailIcon from './assets/email.png'
+
 
 function Contact() {
   return (
     <div className={styles.contactContainer}>
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.contactItem}>
+      <a href="https://github.com/aneesh-123" target="_blank" rel="noopener noreferrer" className={styles.contactItem}>
         GitHub
-        <img src="/path-to-github-icon.png" alt="GitHub" className={styles.contactIcon} />
+        <img src={githubIcon} alt="GitHub" className={styles.contactIcon} />
       </a>
       
-      <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.contactItem}>
+      <a href="https://www.linkedin.com/in/aneesh-nagalkar/" target="_blank" rel="noopener noreferrer" className={styles.contactItem}>
         LinkedIn
-        <img src="/path-to-linkedin-icon.png" alt="LinkedIn" className={styles.contactIcon} />
+        <img src={LinkedInIcon} alt="LinkedIn" className={styles.LinkedIncontactIcon} />
       </a>
 
-      <a href="mailto:your-email@example.com" className={styles.contactItem}>
+      <a href="mailto:aneeshnagalkar@gmail.com" className={styles.contactItem}>
         Email
-        <img src="/path-to-email-icon.png" alt="Email" className={styles.contactIcon} />
+        <img src={EmailIcon} alt="Email" className={styles.contactIcon} />
       </a>
     </div>
   );
