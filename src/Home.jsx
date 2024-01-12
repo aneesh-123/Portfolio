@@ -11,7 +11,7 @@ function Home() {
                 Computer Engineering UIUC
                 <br />
                 <a
-                    href="https://www.your-resume-link.com"
+                    href="https://docs.google.com/document/d/1SM4k65pF8xlykih0V8Km0ksZ6zPJPS0gYC0zJgImJ7Y/edit?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:text-blue-700 flex items-center justify-center"
