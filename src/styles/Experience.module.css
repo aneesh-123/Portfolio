@@ -8,7 +8,7 @@
 }
 
 .titlesBox, .neonBox {
-    flex: 1;
+    flex: 0.5; /* Adjusted flex to maintain a consistent size */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,6 +21,7 @@
       0 0 5px #ff00ff, /* Outer pink glow */
       0 0 10px #ff00ff, /* Larger pink glow */
       0 0 15px #ff00ff; /* Even larger pink glow */
+    min-width: 0; /* Add this to prevent flex items from growing beyond their container */
 }
 
 .experienceTitle {
