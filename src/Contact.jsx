@@ -19,8 +19,8 @@ function Contact() {
       </a>
 
       <a href="mailto:aneeshnagalkar@gmail.com" className={styles.contactItem}>
-        Email
-        <img src={EmailIcon} alt="BlahBlah" className={styles.contactIcon} />
+        Blahblah
+        <img src={EmailIcon} alt="Email" className={styles.contactIcon} />
       </a>
     </div>
   );
