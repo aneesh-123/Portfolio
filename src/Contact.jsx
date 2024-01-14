@@ -20,7 +20,7 @@ function Contact() {
 
       <a href="mailto:aneeshnagalkar@gmail.com" className={styles.contactItem}>
         Email
-        <img src={EmailIcon} alt="Email" className={styles.contactIcon} />
+        <img src={EmailIcon} alt="BlahBlah" className={styles.contactIcon} />
       </a>
     </div>
   );
