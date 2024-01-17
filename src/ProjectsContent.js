@@ -41,8 +41,11 @@ const projectsData = [
         date: "2021-03-14",
         dependencies: "OpenCV, Python, Tensorflow THIS IS A TEST",
         projectOverview: "Exerhelp won first place at MenloHacks. It is created to track the form of a user's completion of a bicep curl " + 
-                        "and assign an accuracy score to it. Based on ",
-        whatILearned: ["Developed skills in game logic..."],
+                        "and assign an accuracy score to it. Using Computer Vision, the program is able to determine the angle that the user's limbs make " +
+                         "as the exercise is completed. Based on calculations that determine the torque exerted on a user's limbs, the accuracy score is given",
+        whatILearned: ["How to use the MPII database to apply it to pose estimation and map this on a user's body",
+                       "Used trigonometry and cartesian methods to determine the angle that the user's limbs made in relation to each other",
+                       "Implemented concepts learned from physics to determine the resulting torque imparted on a user's bicep based on angle and weight"],
         projectLink: "https://galaga.example.com",
         githubLink: "https://github.com/galaga",
         visualLink: "https://visuals-galaga.example.com"
