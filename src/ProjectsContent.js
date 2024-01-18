@@ -39,7 +39,7 @@ const projectsData = [
         title: "Exerhelp",
         description: "Exercise Form Tracker",
         date: "2021-03-14",
-        dependencies: "OpenCV, Python, Tensorflow THIS IS A TEST",
+        dependencies: "OpenCV, Python, Tensorflow",
         projectOverview: "Exerhelp won first place at MenloHacks. It is created to track the form of a user's completion of a bicep curl " + 
                         "and assign an accuracy score to it. Using Computer Vision, the program is able to determine the angle that the user's limbs make " +
                          "as the exercise is completed. Based on calculations that determine the torque exerted on a user's limbs, the accuracy score is given",
